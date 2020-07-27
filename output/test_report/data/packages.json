@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.common.test_login",
+    "children" : [ {
+      "name" : "test_login[data0]",
+      "uid" : "3fca943a24298cd2",
+      "parentUid" : "438386c30e2554dc0d4058d6c75ec0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861765082,
+        "stop" : 1595861765415,
+        "duration" : 333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'username': '', 'password': 'admin123', 'check': ('xpath', '//*[contains(text(), \"用户名不能为空\")]')}" ]
+    }, {
+      "name" : "test_login[data1]",
+      "uid" : "4c7b6850ed2be4ee",
+      "parentUid" : "438386c30e2554dc0d4058d6c75ec0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861765421,
+        "stop" : 1595861765682,
+        "duration" : 261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'username': 'admin123', 'password': '', 'check': ('xpath', '//*[contains(text(), \"密码不能为空\")]')}" ]
+    }, {
+      "name" : "test_login[data2]",
+      "uid" : "e6501d03c7a29bdb",
+      "parentUid" : "438386c30e2554dc0d4058d6c75ec0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861765687,
+        "stop" : 1595861766500,
+        "duration" : 813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'username': 'admin2134', 'password': 'admin123', 'check': ('xpath', '//*[contains(text(), \"用户不存在/密码错误\")]')}" ]
+    }, {
+      "name" : "test_login[data3]",
+      "uid" : "c0580be17e83d26b",
+      "parentUid" : "438386c30e2554dc0d4058d6c75ec0f9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1595861766504,
+        "stop" : 1595861770032,
+        "duration" : 3528
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ "{'username': 'admin', 'password': 'admin123-+657', 'check': ''}" ]
+    } ],
+    "uid" : "test_case.common.test_login"
+  } ]
+}

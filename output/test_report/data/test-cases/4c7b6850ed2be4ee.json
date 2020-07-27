@@ -1,0 +1,220 @@
+{
+  "uid" : "4c7b6850ed2be4ee",
+  "name" : "test_login[data1]",
+  "fullName" : "test_case.common.test_login.TestLogin#test_login",
+  "historyId" : "97ca959936036cd12b96dbe2889fc97f",
+  "time" : {
+    "start" : 1595861765421,
+    "stop" : 1595861765682,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "case_setup",
+    "time" : {
+      "start" : 1595861765420,
+      "stop" : 1595861765420,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1595861742566,
+      "stop" : 1595861765081,
+      "duration" : 22515
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "614f9c0e7bb5372e",
+      "name" : "log",
+      "source" : "614f9c0e7bb5372e.txt",
+      "type" : "text/plain",
+      "size" : 1280
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "case_setup::0",
+    "time" : {
+      "start" : 1595861765683,
+      "stop" : 1595861765683,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1595861770040,
+      "stop" : 1595861772199,
+      "duration" : 2159
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case.common"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4GTB2M3"
+  }, {
+    "name" : "thread",
+    "value" : "13836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.common.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'username': 'admin123', 'password': '', 'check': ('xpath', '//*[contains(text(), \"密码不能为空\")]')}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "29ff5470fe241aac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861473932,
+          "stop" : 1595861474193,
+          "duration" : 261
+        }
+      }, {
+        "uid" : "c922e9abec444bc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861323466,
+          "stop" : 1595861323729,
+          "duration" : 263
+        }
+      }, {
+        "uid" : "6b611bd87251b361",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861066114,
+          "stop" : 1595861066378,
+          "duration" : 264
+        }
+      }, {
+        "uid" : "ca8caad64074bdf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861012718,
+          "stop" : 1595861013000,
+          "duration" : 282
+        }
+      }, {
+        "uid" : "2989498a970923d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595860959185,
+          "stop" : 1595860959456,
+          "duration" : 271
+        }
+      }, {
+        "uid" : "fb134b72b58ade3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595860567985,
+          "stop" : 1595860568282,
+          "duration" : 297
+        }
+      }, {
+        "uid" : "760a9f775a539275",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595860432015,
+          "stop" : 1595860432306,
+          "duration" : 291
+        }
+      }, {
+        "uid" : "bfb4a34afd92d4d5",
+        "status" : "broken",
+        "statusDetails" : "TypeError: check_login() missing 1 required positional argument: 'locator'",
+        "time" : {
+          "start" : 1595860160639,
+          "stop" : 1595860160899,
+          "duration" : 260
+        }
+      }, {
+        "uid" : "56b594eda5e72d5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1595859927106,
+          "stop" : 1595859942579,
+          "duration" : 15473
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c7b6850ed2be4ee.json",
+  "parameterValues" : [ "{'username': 'admin123', 'password': '', 'check': ('xpath', '//*[contains(text(), \"密码不能为空\")]')}" ]
+}

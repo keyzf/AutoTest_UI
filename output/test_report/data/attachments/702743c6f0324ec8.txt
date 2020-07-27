@@ -1,0 +1,19 @@
+INFO     my_logger.py:pom.py:43 打开 http://47.105.207.22 网址进行测试
+INFO     my_logger.py:conftest.py:26 
+INFO     my_logger.py:conftest.py:27 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO     my_logger.py:pom.py:132 定位单个元素: ('xpath', '//*[@placeholder="账号"]')
+INFO     my_logger.py:pom.py:155 耗时：0s/15s
+INFO     my_logger.py:pom.py:219 点击元素
+INFO     my_logger.py:pom.py:250 清空文本框
+INFO     my_logger.py:pom.py:269 输入内容：
+INFO     my_logger.py:pom.py:132 定位单个元素: ('xpath', '//*[@placeholder="密码"]')
+INFO     my_logger.py:pom.py:155 耗时：0s/15s
+INFO     my_logger.py:pom.py:219 点击元素
+INFO     my_logger.py:pom.py:250 清空文本框
+INFO     my_logger.py:pom.py:269 输入内容：admin123
+INFO     my_logger.py:pom.py:132 定位单个元素: ('class name', 'el-button--primary')
+INFO     my_logger.py:pom.py:155 耗时：0s/15s
+INFO     my_logger.py:pom.py:219 点击元素
+INFO     my_logger.py:pom.py:65 等待元素存在：('xpath', '//*[contains(text(), "用户名不能为空")]')
+INFO     my_logger.py:pom.py:70 等待时长：0s/2s。
+INFO     my_logger.py:conftest.py:31 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

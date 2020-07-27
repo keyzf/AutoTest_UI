@@ -1,0 +1,21 @@
+
+MODE:
+  login: [1, 2 ,3]
+  home: all
+
+URL:
+  test: 'http://47.105.207.22'
+  pre: ''
+  pro: ''
+
+USER_INFO:
+  phone: '13290010001'
+  password: '123456'
+
+
+logger:
+  all_level: "DEBUG"
+  stream_level: "INFO"
+  file_level: "INFO"
+  all_format: "[%(asctime)s] %(levelname)s [%(filename)s, %(lineno)d] %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"

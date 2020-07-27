@@ -1,0 +1,346 @@
+{
+  "3c5570313a046d8833ccc398bf7dc501" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "56f16df27055ef7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861473593,
+        "stop" : 1595861473926,
+        "duration" : 333
+      }
+    }, {
+      "uid" : "1965b29ce0207aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861323135,
+        "stop" : 1595861323460,
+        "duration" : 325
+      }
+    }, {
+      "uid" : "aa764f121410b582",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861065789,
+        "stop" : 1595861066109,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "4bb0a82faff90d6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861012393,
+        "stop" : 1595861012713,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "d4e788f708024d38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860958838,
+        "stop" : 1595860959180,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "d4bcd5cd614ef08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860567615,
+        "stop" : 1595860567981,
+        "duration" : 366
+      }
+    }, {
+      "uid" : "13883ed79734a92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860431676,
+        "stop" : 1595860432009,
+        "duration" : 333
+      }
+    }, {
+      "uid" : "a868f2baab54e0f9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: check_login() missing 1 required positional argument: 'locator'",
+      "time" : {
+        "start" : 1595860160320,
+        "stop" : 1595860160632,
+        "duration" : 312
+      }
+    }, {
+      "uid" : "aeb00c9194d435ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1595859911541,
+        "stop" : 1595859927068,
+        "duration" : 15527
+      }
+    } ]
+  },
+  "5f9d39d2ee8ac8f74b3aa3e7c0de05eb" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "4162be251589cc68",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1595861474996,
+        "stop" : 1595861478540,
+        "duration" : 3544
+      }
+    }, {
+      "uid" : "34b0573bb3173469",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1595861324543,
+        "stop" : 1595861340079,
+        "duration" : 15536
+      }
+    }, {
+      "uid" : "2535c4611fff4a47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861067193,
+        "stop" : 1595861067511,
+        "duration" : 318
+      }
+    }, {
+      "uid" : "1405556e0fa7ee0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861013821,
+        "stop" : 1595861014115,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "fc90998dc48607e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860960279,
+        "stop" : 1595860960572,
+        "duration" : 293
+      }
+    }, {
+      "uid" : "ca606a667ccf33ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860569103,
+        "stop" : 1595860569396,
+        "duration" : 293
+      }
+    }, {
+      "uid" : "341d58c49dfbc165",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1595860447887,
+        "stop" : 1595860463480,
+        "duration" : 15593
+      }
+    }, {
+      "uid" : "1d560915a40a2d3d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: check_login() missing 1 required positional argument: 'locator'",
+      "time" : {
+        "start" : 1595860161226,
+        "stop" : 1595860161554,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "58251e94684b98fc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1595859958197,
+        "stop" : 1595859973693,
+        "duration" : 15496
+      }
+    } ]
+  },
+  "2423988868a6ddbe995616c3331043b9" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "2ed9a4859e8ce11b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861474197,
+        "stop" : 1595861474992,
+        "duration" : 795
+      }
+    }, {
+      "uid" : "3c8a16aa6006ad08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861323733,
+        "stop" : 1595861324539,
+        "duration" : 806
+      }
+    }, {
+      "uid" : "97af078a8acf3c31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861066382,
+        "stop" : 1595861067189,
+        "duration" : 807
+      }
+    }, {
+      "uid" : "be5edaf0a15812e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861013004,
+        "stop" : 1595861013817,
+        "duration" : 813
+      }
+    }, {
+      "uid" : "fac0ffca41231bb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860959460,
+        "stop" : 1595860960275,
+        "duration" : 815
+      }
+    }, {
+      "uid" : "7594564c995e89b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860568286,
+        "stop" : 1595860569099,
+        "duration" : 813
+      }
+    }, {
+      "uid" : "24b3d82805fefd2f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1595860432311,
+        "stop" : 1595860447879,
+        "duration" : 15568
+      }
+    }, {
+      "uid" : "f7db8f0b10e1c816",
+      "status" : "broken",
+      "statusDetails" : "TypeError: check_login() missing 1 required positional argument: 'locator'",
+      "time" : {
+        "start" : 1595860160905,
+        "stop" : 1595860161220,
+        "duration" : 315
+      }
+    }, {
+      "uid" : "57a7f984d945b4ef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1595859942617,
+        "stop" : 1595859958164,
+        "duration" : 15547
+      }
+    } ]
+  },
+  "97ca959936036cd12b96dbe2889fc97f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "29ff5470fe241aac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861473932,
+        "stop" : 1595861474193,
+        "duration" : 261
+      }
+    }, {
+      "uid" : "c922e9abec444bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861323466,
+        "stop" : 1595861323729,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "6b611bd87251b361",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861066114,
+        "stop" : 1595861066378,
+        "duration" : 264
+      }
+    }, {
+      "uid" : "ca8caad64074bdf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595861012718,
+        "stop" : 1595861013000,
+        "duration" : 282
+      }
+    }, {
+      "uid" : "2989498a970923d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860959185,
+        "stop" : 1595860959456,
+        "duration" : 271
+      }
+    }, {
+      "uid" : "fb134b72b58ade3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860567985,
+        "stop" : 1595860568282,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "760a9f775a539275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860432015,
+        "stop" : 1595860432306,
+        "duration" : 291
+      }
+    }, {
+      "uid" : "bfb4a34afd92d4d5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: check_login() missing 1 required positional argument: 'locator'",
+      "time" : {
+        "start" : 1595860160639,
+        "stop" : 1595860160899,
+        "duration" : 260
+      }
+    }, {
+      "uid" : "56b594eda5e72d5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1595859927106,
+        "stop" : 1595859942579,
+        "duration" : 15473
+      }
+    } ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.common",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login[data0]",
+          "uid" : "3fca943a24298cd2",
+          "parentUid" : "425ce6c128ee627495662427b1f0b4d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595861765082,
+            "stop" : 1595861765415,
+            "duration" : 333
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '', 'password': 'admin123', 'check': ('xpath', '//*[contains(text(), \"用户名不能为空\")]')}" ]
+        }, {
+          "name" : "test_login[data1]",
+          "uid" : "4c7b6850ed2be4ee",
+          "parentUid" : "425ce6c128ee627495662427b1f0b4d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595861765421,
+            "stop" : 1595861765682,
+            "duration" : 261
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'admin123', 'password': '', 'check': ('xpath', '//*[contains(text(), \"密码不能为空\")]')}" ]
+        }, {
+          "name" : "test_login[data2]",
+          "uid" : "e6501d03c7a29bdb",
+          "parentUid" : "425ce6c128ee627495662427b1f0b4d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595861765687,
+            "stop" : 1595861766500,
+            "duration" : 813
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'admin2134', 'password': 'admin123', 'check': ('xpath', '//*[contains(text(), \"用户不存在/密码错误\")]')}" ]
+        }, {
+          "name" : "test_login[data3]",
+          "uid" : "c0580be17e83d26b",
+          "parentUid" : "425ce6c128ee627495662427b1f0b4d8",
+          "status" : "failed",
+          "time" : {
+            "start" : 1595861766504,
+            "stop" : 1595861770032,
+            "duration" : 3528
+          },
+          "flaky" : true,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'admin', 'password': 'admin123-+657', 'check': ''}" ]
+        } ],
+        "uid" : "425ce6c128ee627495662427b1f0b4d8"
+      } ],
+      "uid" : "b1f599e1f899044e7fe6184f477f5719"
+    } ],
+    "uid" : "85d11cd2c04110ac71681f5baa5ad095"
+  } ]
+}

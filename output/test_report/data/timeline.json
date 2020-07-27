@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-4GTB2M3",
+    "children" : [ {
+      "name" : "13836-MainThread",
+      "children" : [ {
+        "name" : "test_login[data1]",
+        "uid" : "4c7b6850ed2be4ee",
+        "parentUid" : "9b3d02d38974c306de8760516c1422b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861765421,
+          "stop" : 1595861765682,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'admin123', 'password': '', 'check': ('xpath', '//*[contains(text(), \"密码不能为空\")]')}" ]
+      }, {
+        "name" : "test_login[data3]",
+        "uid" : "c0580be17e83d26b",
+        "parentUid" : "9b3d02d38974c306de8760516c1422b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595861766504,
+          "stop" : 1595861770032,
+          "duration" : 3528
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'admin', 'password': 'admin123-+657', 'check': ''}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "3fca943a24298cd2",
+        "parentUid" : "9b3d02d38974c306de8760516c1422b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861765082,
+          "stop" : 1595861765415,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '', 'password': 'admin123', 'check': ('xpath', '//*[contains(text(), \"用户名不能为空\")]')}" ]
+      }, {
+        "name" : "test_login[data2]",
+        "uid" : "e6501d03c7a29bdb",
+        "parentUid" : "9b3d02d38974c306de8760516c1422b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595861765687,
+          "stop" : 1595861766500,
+          "duration" : 813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'admin2134', 'password': 'admin123', 'check': ('xpath', '//*[contains(text(), \"用户不存在/密码错误\")]')}" ]
+      } ],
+      "uid" : "9b3d02d38974c306de8760516c1422b9"
+    } ],
+    "uid" : "cd1d73d2f75b34e931d8591ce6f7f35f"
+  } ]
+}

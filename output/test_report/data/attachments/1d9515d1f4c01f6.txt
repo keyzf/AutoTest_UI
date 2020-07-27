@@ -1,0 +1,21 @@
+INFO     my_logger.py:conftest.py:26 
+INFO     my_logger.py:conftest.py:27 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO     my_logger.py:pom.py:132 定位单个元素: ('xpath', '//*[@placeholder="账号"]')
+INFO     my_logger.py:pom.py:155 耗时：0s/15s
+INFO     my_logger.py:pom.py:219 点击元素
+INFO     my_logger.py:pom.py:250 清空文本框
+INFO     my_logger.py:pom.py:269 输入内容：admin
+INFO     my_logger.py:pom.py:132 定位单个元素: ('xpath', '//*[@placeholder="密码"]')
+INFO     my_logger.py:pom.py:155 耗时：0s/15s
+INFO     my_logger.py:pom.py:219 点击元素
+INFO     my_logger.py:pom.py:250 清空文本框
+INFO     my_logger.py:pom.py:269 输入内容：admin123-+657
+INFO     my_logger.py:pom.py:132 定位单个元素: ('class name', 'el-button--primary')
+INFO     my_logger.py:pom.py:155 耗时：0s/15s
+INFO     my_logger.py:pom.py:219 点击元素
+INFO     my_logger.py:pom.py:65 等待元素存在：
+ERROR    my_logger.py:pom.py:75 等待元素存在： -- 2s/2s --> 错误：Message: 
+
+INFO     my_logger.py:pom.py:123 截图：H:\AutoFramework_Open\AutoTest_UI\output\test_screenshot\异常截图20200727225608.png
+INFO     my_logger.py:conftest.py:31 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO     my_logger.py:pom.py:595 浏览器 --> 退出
